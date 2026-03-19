@@ -1,3 +1,55 @@
+import time
+vacations = {}
+
+polling = True
+while polling:
+    name = input("\nWhat is your name?\n>> ").title()
+    time.sleep(1)
+    print(f"Hello {name}!")
+    time.sleep(1)
+    place = input("Where is your dream vacation?\n>> ").title()
+    print(f"\n{place} is a great vacation spot!")
+    time.sleep(1)
+    vacations[name] = place
+    poll_again = input("\nWould you like to continue the poll? (y/n) \n>> ").lower()
+    if poll_again == "y":
+        continue
+    else:
+        print("\nThank you for your time!")
+        time.sleep(1)
+        print("\nRESULTS")
+
+        for name, place in vacations.items():
+            time.sleep(1)
+            print(f"\n{name} wants to go to {place}.")
+            time.sleep(1)
+
+
+sandwich_orders = ['pastrami',
+                   'bacon',
+                   'pastrami',
+                   'ham',
+                   'pastrami',
+                   'cheese',
+                   'pastrami',
+                   'chicken']
+
+finished_sandwiches = []
+
+while 'pastrami' in sandwich_orders:
+    sandwich_orders.remove('pastrami')
+    print("\npastrami removed.")
+while sandwich_orders:
+    sandwich = sandwich_orders.pop()
+    finished_sandwiches.append(sandwich)
+    print(f"\n{sandwich} complete!")
+
+print("\nSandwiches made:")
+for sandwich in finished_sandwiches:
+    print(f"\n\t{sandwich}")
+
+print("\nBon Apitite!")
+
 rental_car = "What car would you like to purchase?"
 rental_car += "\n>> "
 choice = input(rental_car)
