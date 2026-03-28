@@ -23,6 +23,7 @@ while polling:
             time.sleep(1)
             print(f"\n{name} wants to go to {place}.")
             time.sleep(1)
+            break
 
 
 sandwich_orders = ['pastrami',
@@ -98,6 +99,20 @@ while running:
         print(f"\n{age} year olds get a movie ticket for 12$!")
     elif age >= 12:
         print(f"\n{age} year olds get a movie ticket for 15$!")
+
+sandwich_orders = ['bacon',
+                   'ham',
+                   'cheese',
+                   'chicken']
+
+finished_sandwiches = []
+while sandwich_orders:
+    for sandwich in sandwich_orders:
+        sandwich_orders.remove(sandwich)
+        finished_sandwiches.append(sandwich)
+
+
+
 
 
 

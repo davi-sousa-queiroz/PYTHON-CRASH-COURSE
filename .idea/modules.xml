@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../CLASSES/.idea/CLASSES.iml" filepath="$PROJECT_DIR$/../CLASSES/.idea/CLASSES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Function-Training/.idea/Function-Training.iml" filepath="$PROJECT_DIR$/../Function-Training/.idea/Function-Training.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PYTHON-CRASH-COURSE.iml" filepath="$PROJECT_DIR$/.idea/PYTHON-CRASH-COURSE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../classes_final/.idea/classes_final.iml" filepath="$PROJECT_DIR$/../classes_final/.idea/classes_final.iml" />
+    </modules>
+  </component>
+</project>
